@@ -1,0 +1,95 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    background-color: #61bae3;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    padding: 0px 15px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    background-color: #e2edf1;
+    padding: 20px;
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+    /* padding: 10px; */
+}
+.intro-img{
+    width: 35%;
+    height: 550px;
+    position: relative;
+    margin: 50px 10px;
+}
+.intro button{
+    width: 120px;
+    padding: 2px 2px;
+    margin: 15px 0 ;
+    
+}
+#self-photo{
+    object-fit: cover;
+    height: 350px;
+    position: absolute;
+    z-index: 999;
+}
+#bg{
+    /* position: absolute; */
+    margin-top: 20px;
+    height: 330px;
+    width: 250px;
+    position: absolute;
+}
+
+.education{
+    display: flex;
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills div{
+    height: 250px;
+    width: 250px;
+    border-radius: 7px;
+    background-color: rgb(120, 164, 203);
+    margin: 10px;
+    padding: 10px;
+}
